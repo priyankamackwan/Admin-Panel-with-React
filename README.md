@@ -8,30 +8,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### `Clone the repository`
+#### `Clone the repository`
 
 git clone https://github.com/priyankamackwan/Admin-Panel-with-React.git
 
-## `cd Admin-Panel-with-React`
+#### `cd Admin-Panel-with-React`
 
 Switch to the repo folder
 
-### `npm install`
+#### `npm install`
 
-### `Use a .env file locally which you can .gitignore`
+#### `Use a .env file locally which you can .gitignore`
 
 The way we prefer to manage our Environment Variables on our development machines is using a .env file which gets loaded into our app once and adds any entries in the .env file to the process.env (global object).
 
 Loading your environment variables from a .env file is as easy as "ABC"!
 
-### `Create .env file`
+#### `Create .env file`
 
 Create a .env file in the project and insert your key/value pairs in the following format of KEY=VALUE:
 
 `Frontend`: 
+
     REACT_APP_API_URL='http://react-admin-api.demo.thewebpatriot.co.in'
 
 `backend`: 
+
     MONGO_USER_NAME=Your username
     MONGO_USER_PASSWORD=Your password
     PORT=4562
@@ -42,12 +44,12 @@ Install all the dependencies using composer
 
 Start the local development server. You can now access the server at http://localhost:3000
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -57,7 +59,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
