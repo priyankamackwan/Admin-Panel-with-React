@@ -18,6 +18,8 @@ Switch to the repo folder
 
 #### `npm install`
 
+Install all the dependencies using composer
+
 #### `Use a .env file locally which you can .gitignore`
 
 The way we prefer to manage our Environment Variables on our development machines is using a .env file which gets loaded into our app once and adds any entries in the .env file to the process.env (global object).
